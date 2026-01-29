@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strumenti di Gestione del Tempo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .slide-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .slide-header {
+            background: linear-gradient(135deg, #2a7fff 0%, #1e5dc4 100%);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+        
+        .slide-header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        
+        .slide-header p {
+            font-size: 16px;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        
+        .table-container {
+            overflow-x: auto;
+            padding: 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 800px;
+        }
+        
+        thead {
+            background-color: #f1f7ff;
+        }
+        
+        th {
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 16px;
+            color: #2a7fff;
+            border-bottom: 3px solid #2a7fff;
+            white-space: nowrap;
+        }
+        
+        td {
+            padding: 16px 15px;
+            border-bottom: 1px solid #eaeaea;
+            vertical-align: top;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        
+        tr:hover {
+            background-color: #f9fbfe;
+        }
+        
+        .objective-col {
+            width: 25%;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        .technique-col {
+            width: 20%;
+            color: #444;
+        }
+        
+        .software-col {
+            width: 30%;
+        }
+        
+        .benefit-col {
+            width: 25%;
+            color: #2e7d32;
+        }
+        
+        .software-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .software-list li {
+            margin-bottom: 5px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .software-list li:before {
+            content: "•";
+            color: #2a7fff;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: -2px;
+        }
+        
+        .category-tag {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .focus-tag { background-color: #e1f5fe; color: #0277bd; }
+        .wellness-tag { background-color: #f3e5f5; color: #7b1fa2; }
+        .org-tag { background-color: #e8f5e9; color: #2e7d32; }
+        .logistics-tag { background-color: #fff3e0; color: #ef6c00; }
+        
+        .footer-note {
+            padding: 15px 30px;
+            background-color: #f1f7ff;
+            border-top: 1px solid #dde7ff;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .slide-container {
+                border-radius: 8px;
+            }
+            
+            .slide-header {
+                padding: 20px 15px;
+            }
+            
+            .slide-header h1 {
+                font-size: 22px;
+            }
+            
+            .table-container {
+                padding: 10px;
+            }
+            
+            th, td {
+                padding: 12px 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide-header">
+            <h1>Strumenti di Gestione del Tempo e Software Operativi</h1>
+            <p>Schema completo delle tecniche e strumenti digitali per ottimizzare produttività, organizzazione e logistica</p>
+        </div>
+        
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Obiettivo Specifico</th>
+                        <th>Strumento/Tecnica</th>
+                        <th>Software Operativo Esempio</th>
+                        <th>Vantaggio Principale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag focus-tag">CONCENTRAZIONE</span>
+                            <div>Mantenere alta la concentrazione in fase operativa</div>
+                        </td>
+                        <td class="technique-col">Tecnica del Pomodoro</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Focus To-Do</li>
+                                <li>Be Focused</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Riduzione delle distrazioni e aumento della produttività</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag wellness-tag">BENESSERE</span>
+                            <div>Gestire stress e migliorare il focus durante la giornata</div>
+                        </td>
+                        <td class="technique-col">Yoga / Mindfulness in ufficio</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Serenity</li>
+                                <li>Aware</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Riduzione dell'ansia e miglioramento della chiarezza mentale</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag org-tag">ORGANIZZAZIONE</span>
+                            <div>Ottimizzare il flusso di lavoro e l'organizzazione visiva</div>
+                        </td>
+                        <td class="technique-col">Kanban Board</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Trello</li>
+                                <li>Asana</li>
+                                <li>Jira</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Chiara visione d'insieme delle attività e identificazione dei colli di bottiglia</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag org-tag">ORGANIZZAZIONE</span>
+                            <div>Gestire la complessità delle diverse mansioni</div>
+                        </td>
+                        <td class="technique-col">Metodo GTD (Getting Things Done)</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>ClickUp</li>
+                                <li>Todoist</li>
+                                <li>Chaos Control</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Sistema affidabile per organizzare e processare tutti gli impegni</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag logistics-tag">LOGISTICA</span>
+                            <div>Evitare sovrapposizioni in logistica</div>
+                        </td>
+                        <td class="technique-col">Time Slot Management</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Transporeon</li>
+                                <li>Logifly (Dock Scheduling)</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Pianificazione efficiente di arrivi/partenze merci</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag logistics-tag">LOGISTICA</span>
+                            <div>Automatizzare il controllo delle scorte e gli ordini</div>
+                        </td>
+                        <td class="technique-col">Software WMS/Economato</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Easy WMS</li>
+                                <li>SAP SCM</li>
+                                <li>Cora Hospitality Software</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Monitoraggio in tempo reale, riduzione sprechi e errori manuali</td>
+                    </tr>
+                    <tr>
+                        <td class="objective-col">
+                            <span class="category-tag org-tag">PRIORITÀ</span>
+                            <div>Focalizzarsi sulle priorità strategiche</div>
+                        </td>
+                        <td class="technique-col">Matrice di Eisenhower</td>
+                        <td class="software-col">
+                            <ul class="software-list">
+                                <li>Priority Matrix App</li>
+                                <li>Matrice di Eisenhower App</li>
+                            </ul>
+                        </td>
+                        <td class="benefit-col">Distinzione tra urgente e importante, riduzione dell'operatività reattiva</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer-note">
+            <p>Tabella ottimizzata per presentazioni - Tutti i dati aggiornati e pronti per l'uso</p>
+        </div>
+    </div>
+
+    <script>
+        // Aggiunge hover effect alle righe
+        document.addEventListener('DOMContentLoaded', function() {
+            const rows = document.querySelectorAll('tbody tr');
+            
+            rows.forEach(row => {
+                row.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px)';
+                    this.style.boxShadow = '0 4px 12px rgba(42, 127, 255, 0.1)';
+                    this.style.transition = 'all 0.2s ease';
+                });
+                
+                row.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
