@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offerte di Lavoro - Febbraio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+        
+        .info-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        
+        th {
+            background-color: #2c3e50;
+            color: white;
+            font-weight: 600;
+            text-align: left;
+            padding: 15px;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .nome-figura {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .struttura {
+            color: #2980b9;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .link-icon {
+            margin-right: 6px;
+            font-size: 0.9rem;
+        }
+        
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        
+        .badge {
+            display: inline-block;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .empty-sheet {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            color: #7f8c8d;
+            margin-top: 30px;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #95a5a6;
+            font-size: 0.9rem;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            th, td {
+                padding: 10px 8px;
+                font-size: 0.9rem;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Offerte di Lavoro - Febbraio 2026</h1>
+            <p class="subtitle">Ruoli di Economo/a disponibili in strutture ricettive</p>
+        </header>
+        
+        <div class="info-box">
+            <p><strong>Informazioni:</strong> Questa tabella è generata dal file "offerte di lavoro febbraio.xlsx". Contiene <strong>4 offerte di lavoro</strong> per il ruolo di Economo/a, tutte pubblicate il 1° febbraio 2026.</p>
+        </div>
+        
+        <main>
+            <h2>Foglio 1 - Offerte Attive</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome Figura</th>
+                        <th>Mese</th>
+                        <th>Struttura</th>
+                        <th>Link</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="nome-figura">Economo/a</span></td>
+                        <td><span class="badge">Febbraio 2026</span></td>
+                        <td class="struttura">Albergo Villa Treville - Positano</td>
+                        <td><a href="https://www.jobintourism.it/search-offerte/?_sft_aree=back-office" target="_blank"><span class="link-icon">🔗</span> Visualizza offerta</a></td>
+                        <td class="note"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="nome-figura">Economo/a</span></td>
+                        <td><span class="badge">Febbraio 2026</span></td>
+                        <td class="struttura">LANGOSTERIA</td>
+                        <td><a href="https://www.linkedin.com/jobs/search/?currentJobId=4368717935&keywords=economato&origin=BLENDED_SEARCH_RESULT_NAVIGATION_SEE_ALL&originToLandingJobPostings=4368717935%2C4369776898%2C4370391216#:~:text=Avanti-,Langosteria,-Condividi" target="_blank"><span class="link-icon">🔗</span> Visualizza offerta</a></td>
+                        <td class="note"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="nome-figura">Economo/a</span></td>
+                        <td><span class="badge">Febbraio 2026</span></td>
+                        <td class="struttura">AF GESTIONI (CARDEDU)</td>
+                        <td><a href="https://www.subito.it/annunci-sardegna/vendita/offerte-lavoro/nuoro/cardedu/?q=economo" target="_blank"><span class="link-icon">🔗</span> Visualizza offerta</a></td>
+                        <td class="note"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="nome-figura">Economo</span></td>
+                        <td><span class="badge">Febbraio 2026</span></td>
+                        <td class="struttura">HOTEL CALA GINEPRO</td>
+                        <td><a href="https://www.jobintourism.it/search-offerte/?_sft_aree=back-office&sf_paged=2" target="_blank"><span class="link-icon">🔗</span> Visualizza offerta</a></td>
+                        <td class="note"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="empty-sheet">
+                <h3>Foglio 2</h3>
+                <p>Questo foglio è vuoto nel file originale.</p>
+            </div>
+            
+            <div class="empty-sheet">
+                <h3>Foglio 3</h3>
+                <p>Questo foglio è vuoto nel file originale.</p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Tabella generata dal file "offerte di lavoro febbraio.xlsx" | Data di estrazione: Febbraio 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
